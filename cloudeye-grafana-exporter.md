@@ -28,13 +28,11 @@ sudo service grafana-server restart
 3.	Нажмите **Log In**. Если авторизация прошла успешно, то появится окно с запросом на смену пароля.
 4.	Измените пароль и нажмите **ОК**.
 
-
 ### Config
 
 В конфигурационном файле CloudEye-Grafana для создания собственного источника данных подставьте следующие значения в поля: “URL", "Domain", "Project", "User", "Password".
 
 Значение "URL" можно узнать в  [Identity and Access Management (IAM) endpoint list](https://developer.huaweicloud.com/en-us/endpoint).
-![image](https://github.com/huaweicloud/cloudeye-grafana/blob/master/config.png)
 
 **Описание параметров:** 
 
@@ -46,11 +44,9 @@ sudo service grafana-server restart
 -	`password` - укажите пароль тенанта\юзера(саб-тенанта).
 -	`domain_name` - укажите id тенанта(account id).
 
-
 ### Использование
 
 1. Перейдите на сайт [Grafana](http://localhost:3000/).
 2. Создайте новую панель, нажав на кнопку **+** (**Create**) --> **Dashboard**.
 3. Введите нужные значения в поля "Project", "Metric" и "Dimention", чтобы получить данные метрики.
 
-![image](https://github.com/huaweicloud/cloudeye-grafana/blob/master/dashboard.png)

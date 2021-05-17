@@ -1,6 +1,6 @@
-# pipeline-huaweicloud-plugin
+# pipeline-plugin
 
-Этот плагин добавляет шаги (**steps**) Jenkins Pipline для взаимодействия с API HuaweiCloud.
+Этот плагин добавляет шаги (**steps**) Jenkins Pipline для взаимодействия с API SberCloud.
 
 ## Как установить плагин
 
@@ -21,7 +21,6 @@ mvn package -DskipTests
 sudo apt install maven
 ```
 Установите pipeline-huaweicloud-plugin/target/pipeline-huaweicloud.hpi в jenkins (например, такой http://127.0.0.1/pluginManager/advanced)
-
 
 ## Использование / Шаги (Steps)
 
